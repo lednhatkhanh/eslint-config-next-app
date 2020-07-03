@@ -22,6 +22,11 @@ module.exports = {
     react: {
       version: 'detect',
     },
+    'import/resolver': {
+      node: {
+        paths: [process.cwd()],
+      },
+    },
   },
 
   plugins: ['@next/eslint-plugin-next'],
