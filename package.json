@@ -32,6 +32,9 @@
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-react-hooks": "^4.0.5"
   },
+  "devDependencies": {
+    "@lednhatkhanh/prettier-config": "0.0.1"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   }
