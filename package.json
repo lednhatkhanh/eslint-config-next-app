@@ -1,6 +1,6 @@
 {
   "name": "@lednhatkhanh/eslint-config-next-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My shareable eslint configs for next.js app",
   "peerDependencies": {
     "eslint": ">= 7"
@@ -30,9 +30,10 @@
     "eslint-plugin-jest": "^23.17.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.20.3",
-    "eslint-plugin-react-hooks": "^4.0.5"
-  },
-  "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.0.5",
     "babel-eslint": "^10.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }

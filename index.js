@@ -12,7 +12,7 @@ module.exports = {
     'plugin:jsx-a11y/strict',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    '@next/eslint-plugin-next/recommended',
+    '@next/eslint-plugin-next:recommended',
     'plugin:jest/all',
   ],
 
