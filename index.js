@@ -18,6 +18,14 @@ module.exports = {
     'plugin:jest/all',
   ],
 
+  env: {
+    browser: true,
+    commonjs: true,
+    es6: true,
+    jest: true,
+    node: true,
+  },
+
   settings: {
     react: {
       version: 'detect',
