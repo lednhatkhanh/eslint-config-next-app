@@ -1,0 +1,38 @@
+{
+  "name": "@lednhatkhanh/eslint-config-next-app",
+  "version": "0.0.1",
+  "description": "My shareable eslint configs for next.js app",
+  "peerDependencies": {
+    "eslint": ">= 7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lednhatkhanh/eslint-config-next-app.git"
+  },
+  "keywords": [
+    "eslint",
+    "react",
+    "typescript",
+    "next.js",
+    "jest"
+  ],
+  "author": "Khanh Le",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lednhatkhanh/eslint-config-next-app/issues"
+  },
+  "homepage": "https://github.com/lednhatkhanh/eslint-config-next-app#readme",
+  "dependencies": {
+    "@next/eslint-plugin-next": "^9.4.4",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.17.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0"
+  }
+}
