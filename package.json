@@ -1,6 +1,6 @@
 {
   "name": "@lednhatkhanh/eslint-config-next-app",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "My shareable eslint configs for next.js app",
   "peerDependencies": {
     "eslint": ">= 7"
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/lednhatkhanh/eslint-config-next-app#readme",
   "dependencies": {
+    "@next/eslint-plugin-next": "^9.4.4",
     "@typescript-eslint/eslint-plugin": "^3.5.0",
     "@typescript-eslint/parser": "^3.5.0",
     "eslint-plugin-import": "^2.22.0",
