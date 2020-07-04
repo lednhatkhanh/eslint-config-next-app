@@ -30,11 +30,6 @@ module.exports = {
     react: {
       version: 'detect',
     },
-    'import/resolver': {
-      node: {
-        paths: [process.cwd()],
-      },
-    },
   },
 
   plugins: ['@next/eslint-plugin-next'],
@@ -49,19 +44,32 @@ module.exports = {
   },
 
   rules: {
-    '@typescript-eslint/explicit-module-boundary-types': [
-      'error',
-      {
-        allowTypedFunctionExpressions: true,
-      },
-    ],
+    // react
     'react/prop-types': 'off',
+
+    // next
+    '@next/next/no-html-link-for-pages': ['error', path.resolve(process.cwd(), './src/pages')],
+
+    // @typescript-eslint
+    '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-empty-interface': [
       'off',
       {
         allowSingleExtends: true,
       },
     ],
-    '@next/next/no-html-link-for-pages': ['error', path.resolve(process.cwd(), './src/pages')],
+    '@typescript-eslint/explicit-module-boundary-types': [
+      'error',
+      {
+        allowTypedFunctionExpressions: true,
+      },
+    ],
+
+    // jsx-a11y
+    'jsx-a11y/label-has-for': 'off',
+    'jsx-a11y/label-has-associated-control': 'error',
+
+    // import
+    'import/no-unresolved': 'off',
   },
 };
