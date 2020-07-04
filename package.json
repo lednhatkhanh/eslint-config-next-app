@@ -1,6 +1,6 @@
 {
   "name": "@lednhatkhanh/eslint-config-next-app",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "My shareable eslint configs for next.js app",
   "peerDependencies": {
     "eslint": ">= 7"

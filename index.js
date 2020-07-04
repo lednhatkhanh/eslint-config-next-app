@@ -53,7 +53,7 @@ module.exports = {
     // @typescript-eslint
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-empty-interface': [
-      'off',
+      'error',
       {
         allowSingleExtends: true,
       },
