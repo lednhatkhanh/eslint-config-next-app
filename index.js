@@ -59,12 +59,7 @@ module.exports = {
         allowSingleExtends: true,
       },
     ],
-    '@typescript-eslint/explicit-module-boundary-types': [
-      'error',
-      {
-        allowTypedFunctionExpressions: true,
-      },
-    ],
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
 
     // jsx-a11y
     'jsx-a11y/label-has-for': 'off',
@@ -72,5 +67,8 @@ module.exports = {
 
     // import
     'import/no-unresolved': 'off',
+
+    // react hooks
+    'react-hooks/exhaustive-deps': 'error',
   },
 };
