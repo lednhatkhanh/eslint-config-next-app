@@ -16,6 +16,7 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:@next/eslint-plugin-next/recommended',
     'plugin:jest/all',
+    'plugin:jest-dom/recommended',
   ],
 
   env: {
