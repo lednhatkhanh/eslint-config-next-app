@@ -70,5 +70,21 @@ module.exports = {
 
     // react hooks
     'react-hooks/exhaustive-deps': 'error',
+
+    // jest
+    'jest/consistent-test-it': [
+      'error',
+      {
+        withinDescribe: 'test',
+        fn: 'test',
+      },
+    ],
+    'jest/prefer-expect-assertions': 'off',
+    'jest/expect-expect': [
+      'error',
+      {
+        assertFunctionNames: ['expect', 'getBy*'],
+      },
+    ],
   },
 };
