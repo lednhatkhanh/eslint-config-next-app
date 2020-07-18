@@ -50,6 +50,12 @@ module.exports = {
 
     // next
     '@next/next/no-html-link-for-pages': ['error', path.resolve(process.cwd(), './src/pages')],
+    'jsx-a11y/anchor-is-valid': [
+      'error',
+      {
+        components: ['Link'],
+      },
+    ],
 
     // @typescript-eslint
     '@typescript-eslint/no-unused-vars': 'error',
@@ -60,6 +66,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
 
     // jsx-a11y
     'jsx-a11y/label-has-for': 'off',
@@ -67,6 +74,7 @@ module.exports = {
 
     // import
     'import/no-unresolved': 'off',
+    'import/no-named-as-default': 'off',
 
     // react hooks
     'react-hooks/exhaustive-deps': 'error',
